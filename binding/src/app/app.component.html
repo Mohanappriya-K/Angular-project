@@ -1,0 +1,10 @@
+<h1 style="text-align:center;">Welcome {{name}}! </h1>
+<h2 style = "text-align:center;"> You are learning {{place}} tutorial </h2>
+<img [src]= "image" alt="" style= "height:100px;width:250px;">
+<br>
+<div style="text-align:center;"><button (click)= "onClick()"> Subscribe</button>
+<input [(ngModel)] = "value" type="text"> <br>
+{{value}}   
+</div>
+
+<app-header [parentMessage] ="title" ></app-header>
